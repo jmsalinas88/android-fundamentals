@@ -8,7 +8,7 @@
     android:layout_marginBottom="0dp"
     android:layout_marginLeft="0dp"
     android:layout_marginRight="0dp"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@drawable/marciano"
     tools:context=".MainActivity">
 
@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="20dp"
         android:text="@string/app_gretting"
         android:textAlignment="center"
         android:textColor="@color/colorGretting"
@@ -27,10 +27,9 @@
         android:id="@+id/button2"
         android:layout_width="135dp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:background="@drawable/button_border"
-        android:textColor="@color/colorGretting"
-        android:text="@string/app_btn_enter" />
+        android:text="@string/app_btn_enter"
+        android:textColor="@color/colorGretting" />
 
 
 </RelativeLayout>
