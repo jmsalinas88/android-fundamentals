@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="app_gretting">50sp</dimen>
+    <dimen name="text_margin_top">10dp</dimen>
+    <dimen name="addp_layout_margin">0dp</dimen>
 </resources>
